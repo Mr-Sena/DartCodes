@@ -1,0 +1,13 @@
+algumas características do Dart:
+
+É uma linguagem nova.
+É portável, podendo ser executado em vários dispositivos diferentes.
+É a linguagem que utilizada para desenvolvimento de aplicações do Flutter.
+Parecido com linguagens já existentes, como C++, Java, Javascript etc.
+Aprovado pelo ECMA, mesma instituição que ditou os padrões da linguagem Javascript.
+Possui um compilador interno capaz de compilar seu código para Javascript.
+É veloz e prático.
+Todo programa em Dart deve conter void main() {}.
+Todos comandos devem terminar com ;
+Variáveis de forma dinâmica e que não podem alterar seu tipo durante a execução do programa, usando var.
+Variáveis de forma dinâmica e que podem alterar seu tipo durante a execução do programa, usando dynamic.
