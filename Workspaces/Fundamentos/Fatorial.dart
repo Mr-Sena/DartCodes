@@ -14,8 +14,15 @@ void main() {
     stdout.write("!$n =");
 
     while(n >= 1) {
-      stdout.write(" x $n"); // Esse é uma especie de comando print - porém sem quebra a linha. ;)
+      
+      if(n == numero) {
+        stdout.write(" $n"); // Esse é uma especie de comando print - porém sem quebra a linha. ;)
+      }
+
+      else stdout.write(" x $n");
+
       n -= 1;
+      
 
     }
     print(" => $fatorResult");
