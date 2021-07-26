@@ -1,0 +1,56 @@
+Aula 1 - Introdução
+
+Overview sobre a linguagem [https://dart.dev/overview]
+
+
+
+
+Aula 2 - Agenda do curso
+
+https://dart.dev/guides/language/spec 
+
+https://dart.dev/guides
+
+
+
+
+Aula 3: KeyWords - Palvaras Chave
+
+
+https://dart.dev/guides/language/lang...
+
+Proposta para remover interface do Dart: https://news.dartlang.org/2012/06/proposal-to-eliminate-interface.html
+
+
+Aula 6 - Modificador 'Late'
+
+https://dart.dev/guides/language/language-tour#late-variables
+
+Aula 7 - Final e Const
+
+https://dart.dev/guides/language/language-tour#final-and-const
+
+
+
+Aula 8 - Numeros 
+
+https://dart.dev/guides/language/language-tour#numbers
+https://dart.dev/guides/language/numbers
+
+
+
+Aula 9 - String
+
+https://dart.dev/guides/language/language-tour#strings
+
+
+
+Aula 10 - Booleanos
+
+https://dart.dev/guides/language/language-tour#booleans
+
+
+
+Aula 11 - Listas
+
+https://dart.dev/guides/language/language-tour#lists
