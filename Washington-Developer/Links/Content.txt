@@ -54,3 +54,11 @@ https://dart.dev/guides/language/language-tour#booleans
 Aula 11 - Listas
 
 https://dart.dev/guides/language/language-tour#lists
+
+Aula 12 - Sets
+
+https://dart.dev/guides/language/language-tour#sets
+
+Aula 13 - Maps
+
+https://dart.dev/guides/language/language-tour#maps
