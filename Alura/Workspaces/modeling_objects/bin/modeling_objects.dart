@@ -1,3 +1,6 @@
+import '../lib/Atleta.dart';
+//import 'package:modeling_objects/Atleta.dart';
+
 void main() {
   var pugilista = Atleta();
   pugilista.nome = 'Billy';
@@ -27,25 +30,3 @@ void main() {
 
 }
 
-
-
-class Atleta {
-  late String nome;
-  late String modalidade;
-  late String categoria;
-  late double peso;
-
-  void comer(String nomeComida, double pesoComida) {
-    print('Comendo $nomeComida...');
-    peso += pesoComida;
-  }
-
-  bool pesoControlado () {
-    if (peso > 60 && peso <= 66) {
-      return true;
-    } else {
-      return false;
-    }
-  }
-
-}
