@@ -1,0 +1,2 @@
+Ctrl + Shift + P -> dart: New Project > selecionar
+Console Application > Escolher um nome para o projeto.
