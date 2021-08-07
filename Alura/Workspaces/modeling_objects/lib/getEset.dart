@@ -1,33 +1,55 @@
-//Get e Set reservado pelo Dart: 
+  //Get e Set reservado pelo Dart:
+import 'dart:math';
+
 class getEset {
 
-  String _nome = 'Template'; // Definindo a variável com underline no começo significa que é private.
+
+
+
+   // Definindo a variável com underline no começo significa que é private.
+  String _nome = 'Template';
+  double _saldo = 10.0;
+
+
+  //Métodos que acessa propriedades privadas, como nome bem descriptivo para determinada regra de négocio 
+          // Pode ser considerado como uma espécie de get e setters, porém, mais detalhado.
+
+  double revelarSaldo() {
+    return this._saldo;
+  }
+  void adicionarMontante(double quantia) {
+    this._saldo += quantia;
+  }
+
+  void retirarMontante(double quantia) {
+    if (quantia < this._saldo) {
+      this._saldo -= quantia;
+    } else print('Saldo insuficiente!');
+  }
+
+
+
+
+  
+
+  //Quando esse formato de get/set é adotado (com uso da palavre chave no começo), 
+  //os atributos passa a ser acessado fora da classe como se fossem público.  
 
   get nome {
     return _nome;
   }
 
-  //Quando eese estilo é adotado, os atributos passa a ser acessado fora da classe como se fossem público.  
-
   set nome(nombre) {
     _nome = nombre;
   }
+
+
+  String _description = 'Alternativa para definição de getter e setters.';
+  get description =>  _description;
+  set description(newString) => {_description = newString};
+
+
 }
 
 
-  String _property = 'Alternativa para definição de getter e setters.';
-  get property =>  _property;
-  set property(newString) => {_property = newString};
 
-void main() {
-
-  var experiment = getEset();
-  print(experiment);
-  experiment.nome = 'Success';
-  print(experiment.nome);
-
-  print(property);
-  property = 'Empty';
-  print(property);
-
-}
