@@ -1,0 +1,9 @@
+Eles são profundamente, transitivamente imutáveis. Se você tiver um campo final contendo uma coleção, 
+essa coleção ainda poderá ser mutável. Se você tem uma coleção const, tudo nela também deve ser const, 
+recursivamente.
+
+
+Os objetos Const têm algumas propriedades e restrições interessantes:
+Eles devem ser criados a partir de dados que podem ser calculados em tempo de compilação. 
+Um objeto const não tem acesso a nada que você precisaria calcular em tempo de execução. 1 + 2 é 
+uma expressão const válida, mas o novo DateTime.now () não é.
