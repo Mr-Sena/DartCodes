@@ -1,6 +1,6 @@
 void main() {
 
-  //Muito bizarro kkkk atribuir o parâmetro à função como se fosse um valor qualquer seguido de chaves...
+  //Muito bizarro kkkk atribuir o parâmetro à função como se fosse uma variável recebendo um dado seguido de chaves:
   Function firstFunction = () {
     print(2 + 2);
   };
@@ -38,7 +38,7 @@ void main() {
   print(isPar(4)); // True -> Se for par | False -> Se for impar
 
 
-  //Enxugando as funções para o que talves seja um método: 
+  //Enxugando as funções para o que, talvez, seja um método:
 
   bool isImpar(int number) {
     return number % 2 != 0;
