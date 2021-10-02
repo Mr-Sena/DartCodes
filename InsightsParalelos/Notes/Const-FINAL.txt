@@ -1,6 +1,5 @@
-Eles são profundamente, transitivamente imutáveis. Se você tiver um campo final contendo uma coleção, 
-essa coleção ainda poderá ser mutável. Se você tem uma coleção const, tudo nela também deve ser const, 
-recursivamente.
+Eles são profundamente, transitivamente imutáveis. Se você tiver uma lista final ainda poderá ser mutável. 
+Se você tem uma coleção const, tudo nela também deve ser const, recursivamente, impedindo qualquer alteração.
 
 
 Os objetos Const têm algumas propriedades e restrições interessantes:
